@@ -8,7 +8,6 @@ import SEO from "../../components/seo"
 const BlogPage = ({ data }) => (
   <Layout>
     <SEO title={data.microcmsBlog.title} />
-    <span>{data.microcmsBlog.writer.name}</span>
     <h1>{data.microcmsBlog.title}</h1>
     <div
       dangerouslySetInnerHTML={{
